@@ -3,7 +3,7 @@
     "name": "Potential Directories Review Queue",
     "description": "Unverified or partially verified candidate directories that still need duplicate checks, DR lookup, pricing review, or submission review before promotion into the canonical dataset.",
     "last_updated": "2026-03-31",
-    "total_count": 11,
+    "total_count": 12,
     "status_values": [
       "pending",
       "reviewing",
@@ -245,6 +245,25 @@
       "reviewStatus": "pending",
       "reasonToReview": "Likely relevant launch/discovery site but still needs DR, pricing, and duplicate review.",
       "notes": "Source note: 'Top launchpad for directories and side projects'."
+    },
+    {
+      "id": "mediapronet",
+      "name": "MEDIAPRONET",
+      "url": "https://mediapronet.com",
+      "description": "Curated directory where founders list new startups, SaaS tools and indie products.",
+      "type": [
+        "Startup Platform",
+        "SaaS Directory"
+      ],
+      "domainRating": "unknown",
+      "submissionType": "freemium",
+      "followType": "nofollow",
+      "listedOn": [
+        "owner-submission"
+      ],
+      "reviewStatus": "pending",
+      "reasonToReview": "Submitted by the site owner, so DR, duplicate status and the submission flow need an independent check.",
+      "notes": "Free listing needs the MEDIAPRONET badge on your homepage and goes live after at least 7 days; dofollow is a paid-plan feature. Paid plans are one-time, from $19 (https://mediapronet.com/pricing)."
     }
   ]
 }
